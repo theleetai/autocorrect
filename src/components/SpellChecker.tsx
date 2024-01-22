@@ -1,4 +1,4 @@
-import { h, FunctionComponent } from 'preact';
+import {  FunctionComponent } from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
 
 type Suggestion = { word: string; distance: number };
